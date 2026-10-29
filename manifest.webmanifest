@@ -1,17 +1,17 @@
 {
-  "id": "./",
-  "name": "Teselia Track · Pokémon Negro",
-  "short_name": "Teselia Track",
-  "description": "Guía cronológica de los 156 Pokémon de la Pokédex de Teselia original. Capturas, evoluciones, regalos e intercambios.",
+  "name": "PokéAtlas · Tus aventuras Pokémon",
+  "short_name": "PokéAtlas",
+  "description": "Nueve aventuras Pokémon. Pokédex, rutas y tus capturas en un solo lugar.",
   "lang": "es",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#070c15",
-  "theme_color": "#0b1220",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#070914",
+  "theme_color": "#080b15",
+  "orientation": "any",
   "icons": [
-    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
-    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+    {"src": "./icon-192.png", "sizes":"192x192", "type":"image/png", "purpose":"any maskable"},
+    {"src": "./icon-512.png", "sizes":"512x512", "type":"image/png", "purpose":"any maskable"}
   ]
 }
